@@ -1,0 +1,28 @@
+body {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-family: 'Hi Melody', cursive;
+}
+
+.header {
+    background: beige;
+    height: 200px;
+}
+
+#container {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(auto-fit, 200px);
+    grid-auto-rows: 1fr;
+    grid-gap: 20px; 
+}
+
+.card {
+    display: grid;
+    background: beige;
+    justify-content: center;
+    align-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
